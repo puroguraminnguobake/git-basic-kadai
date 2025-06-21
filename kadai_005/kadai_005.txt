@@ -1,21 +1,20 @@
 cappuccino0108@cappuccino0108noMacBook-Air study % mkdir git_challenge
 cappuccino0108@cappuccino0108noMacBook-Air study % cd git_challenge
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % touch hello_world.txt
-cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git add .
-fatal: not a git repository (or any of the parent directories): .git
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git init
 Initialized empty Git repository in /Users/cappuccino0108/Desktop/study/git_challenge/.git/
+cappuccino0108@cappuccino0108noMacBook-Air git_challenge % echo "Hello,world!" >> hello_world.txt
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git add .
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git commit -m"hello_world.txtを追加"
 [main (root-commit) 8676da5] hello_world.txtを追加
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
+cappuccino0108@cappuccino0108noMacBook-Air git_challenge %　echo "こんにちは、世界！" >> hello_world.txt
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git add .
-cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git commit -m"日本語 訳を追加"
-[main 00ddcf2] 日本語訳を追加
+cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git commit -m"日本語訳を追記"
+[main 00ddcf2] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git log --oneline
-00ddcf2 (HEAD -> main) 日本語訳を追加
-8676da5 hello_world.txtを追加文字列が追加されるか検証
-文字列が追加される か検証
-2回目検証
+00ddcf2 (HEAD -> main) 日本語訳を追記
+8676da5 hello_world.txtを追加
+
