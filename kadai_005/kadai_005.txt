@@ -16,4 +16,6 @@ cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git commit -m"日本�
  1 file changed, 2 insertions(+), 1 deletion(-)
 cappuccino0108@cappuccino0108noMacBook-Air git_challenge % git log --oneline
 00ddcf2 (HEAD -> main) 日本語訳を追加
-8676da5 hello_world.txtを追加
+8676da5 hello_world.txtを追加文字列が追加されるか検証
+文字列が追加される か検証
+2回目検証
